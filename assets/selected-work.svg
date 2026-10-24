@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="190" viewBox="0 0 560 190" role="img" aria-labelledby="title desc">
+<title id="title">Explore Faran Mustafa's engineering portfolio</title><desc id="desc">Retail systems, Kafka reliability, and Python services. Selected professional work and engineering decisions.</desc>
+<rect width="560" height="190" rx="12" fill="#efc6ae"/>
+<text x="24" y="30" fill="#77533e" font-family="Arial,Helvetica,sans-serif" font-size="9" letter-spacing="1.7">SELECTED WORK / ENGINEERING IN CONTEXT</text>
+<text x="23" y="91" fill="#394c38" font-family="Arial,Helvetica,sans-serif" font-size="36" font-weight="600" letter-spacing="-1.5">Behind the systems.</text>
+<text x="25" y="124" fill="#66563e" font-family="Georgia,serif" font-style="italic" font-size="24">The work. The decisions.</text>
+<text x="25" y="166" fill="#7b664e" font-family="Arial,Helvetica,sans-serif" font-size="10">Retail operations · Kafka · FastAPI</text>
+<g transform="translate(382 68)"><path d="M0 64L84 20m-54 77 76-43" stroke="#856c4d" stroke-opacity=".4"/><g transform="rotate(-12 62 50)"><rect x="0" y="23" width="43" height="65" rx="5" fill="#f4ddba"/><rect x="49" y="0" width="43" height="65" rx="5" fill="#a3b491"/><rect x="98" y="36" width="43" height="65" rx="5" fill="#254f38"/><g fill="#466044" font-family="Arial,Helvetica,sans-serif" font-size="9"><text x="9" y="46">API</text><text x="57" y="24">DATA</text><text x="106" y="59" fill="#e2e9d6">LIVE</text></g></g></g>
+</svg>
