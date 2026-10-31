@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <strong>Python APIs &nbsp;·&nbsp; Event-driven systems &nbsp;·&nbsp; Full-stack products</strong>
+  <strong>Python APIs &nbsp;·&nbsp; Event-driven systems &nbsp;·&nbsp; AI agents with guardrails</strong>
 </p>
 
 <p align="center">
@@ -26,11 +26,34 @@ I'm **Faran**, a backend and full-stack engineer based in **Karachi, Pakistan**,
 
 I work across **Python services, Kafka processing and recovery, real-time communication, and retail POS/ERP applications**. I like understanding the whole system—from service boundaries and event delivery to the interface someone uses every day.
 
+Lately I build **AI agents for back-office work**: the model handles the judgment, and deterministic code handles the money, the limits and the audit trail.
+
 **Open to senior backend and full-stack opportunities with remote teams, and to relocation.**
 
 <br />
 
 ## Work worth a closer look
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://github.com/FaranMustafa/threeway-agent"><img src="./assets/threeway-agent.svg" alt="ThreeWay: an AI agent that resolves accounts-payable invoice exceptions from EDI" width="100%" /></a>
+
+</td>
+<td width="50%" valign="top">
+
+### ThreeWay: an AI agent for accounts payable
+
+Resolves invoice exceptions from **EDI 850/856/810**. Claude investigates with read-only tools and proposes a payment, citing its evidence. Policy code checks the arithmetic, rejects made-up evidence, and sends anything the records can't prove to a person.
+
+Includes an X12 parser, match engine, FastAPI review queue, and a labeled eval against the rules most AP software ships with.
+
+[Repository ↗](https://github.com/FaranMustafa/threeway-agent) · [How it works ↗](https://github.com/FaranMustafa/threeway-agent#how-it-works) · [Evaluation ↗](https://github.com/FaranMustafa/threeway-agent#evaluation)
+
+</td>
+</tr>
+</table>
 
 <table>
 <tr>
@@ -75,14 +98,23 @@ Explore illustrated case studies covering **POS transaction capture, device oper
 
 ## My working toolkit
 
-| Backend | Frontend | Data & messaging | Delivery & real time |
-| :--- | :--- | :--- | :--- |
-| Python | React | PostgreSQL | AWS |
-| Django / DRF | TypeScript | Kafka | Docker |
-| FastAPI | Next.js | Redis | GitHub Actions |
-| Node.js | JavaScript | SQL | WebRTC / WebSockets |
+| Backend | Frontend | Data & messaging | Delivery & real time | AI engineering |
+| :--- | :--- | :--- | :--- | :--- |
+| Python | React | PostgreSQL | AWS | Claude API |
+| Django / DRF | TypeScript | Kafka | Docker | Tool-use agents |
+| FastAPI | Next.js | Redis | GitHub Actions | Agent evals |
+| Node.js | JavaScript | SQL | WebRTC / WebSockets | LLM guardrails |
 
-**Also public:** [Next.js authentication starter ↗](https://github.com/FaranMustafa/next-auth-ts-boilerplate) — a TypeScript/NextAuth demonstration of credentials login, sessions, and token-refresh logic.
+<br />
+
+## Read the code
+
+| Project | What it shows | Stack |
+| :--- | :--- | :--- |
+| [**threeway-agent**](https://github.com/FaranMustafa/threeway-agent) | AI agent for invoice exceptions: tool use, policy guardrails, human review, evals | Python · FastAPI · Claude · EDI X12 |
+| [**idempotent-event-consumer**](https://github.com/FaranMustafa/idempotent-event-consumer) | At-least-once Kafka consumer: Redis idempotency leases, retries with backoff, dead-letter queue | Python · Kafka · Redis |
+| [**spotter-fuel-router**](https://github.com/FaranMustafa/spotter-fuel-router) | Cost-optimal fuel stops along a US route from a single routing call | Django · OSRM · NumPy |
+| [**next-auth-ts-boilerplate**](https://github.com/FaranMustafa/next-auth-ts-boilerplate) | Credentials login, JWT sessions with token refresh, protected routes | Next.js · TypeScript |
 
 <br />
 

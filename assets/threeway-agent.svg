@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="190" viewBox="0 0 560 190" role="img" aria-labelledby="title desc">
+<title id="title">ThreeWay — an AI agent for accounts payable</title><desc id="desc">An agent that resolves invoice exceptions from EDI purchase orders, ship notices and invoices, with guardrails and human approval.</desc>
+<rect width="560" height="190" rx="12" fill="#efe3d3"/>
+<text x="24" y="30" fill="#8a5a3c" font-family="Arial,Helvetica,sans-serif" font-size="9" letter-spacing="1.7">AI AGENT / CLAUDE TOOL USE / EVALS</text>
+<text x="23" y="94" fill="#3d2418" font-family="Arial,Helvetica,sans-serif" font-size="39" font-weight="600" letter-spacing="-1.5">ThreeWay.</text>
+<text x="25" y="127" fill="#7a4a30" font-family="Georgia,serif" font-style="italic" font-size="24">850 · 856 · 810 → paid right</text>
+<text x="25" y="166" fill="#8f6a52" font-family="Arial,Helvetica,sans-serif" font-size="10">Invoice exceptions, investigated and resolved.</text>
+<g font-family="Arial,Helvetica,sans-serif" font-size="9" font-weight="600" fill="#f4ebe0" text-anchor="middle">
+<rect x="352" y="50" width="52" height="30" rx="7" fill="#5a3322"/><text x="378" y="69">PO</text>
+<rect x="352" y="90" width="52" height="30" rx="7" fill="#5a3322"/><text x="378" y="109">ASN</text>
+<rect x="352" y="130" width="52" height="30" rx="7" fill="#5a3322"/><text x="378" y="149">INV</text>
+</g>
+<g fill="none" stroke="#c9a88f" stroke-width="1.5"><path d="M404 65C430 65 432 105 452 105M404 105h48M404 145C430 145 432 105 452 105"/></g>
+<circle cx="470" cy="105" r="18" fill="#d26c42"/>
+<path d="M461 105l6 6 12-13" fill="none" stroke="#fff4ea" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="470" y="146" fill="#8a5a3c" font-family="Arial,Helvetica,sans-serif" font-size="8" letter-spacing="1" text-anchor="middle">AGENT + POLICY</text>
+</svg>
