@@ -36,12 +36,12 @@ Lately I build **AI agents for back-office work**: the model handles the judgmen
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="50%" valign="middle">
 
 <a href="https://github.com/FaranMustafa/threeway-agent"><img src="./assets/threeway-agent.svg" alt="ThreeWay: an AI agent that resolves accounts-payable invoice exceptions from EDI" width="100%" /></a>
 
 </td>
-<td width="50%" valign="top">
+<td width="50%" valign="middle">
 
 ### ThreeWay: an AI agent for accounts payable
 
